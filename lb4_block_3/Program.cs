@@ -8,6 +8,32 @@ namespace lb4_block_3
 {
     internal class Program
     {
+	static void RandomFill(int rows, int col, ref int[][] array)
+        {
+            Random random = new Random();
+            for (int i = 0; i < rows; i++)
+            {
+                array[i] = new int[col];
+                for (int j = 0; j < col; j++)
+                {
+                    array[i][j] = random.Next(-100, 100);
+                }
+            }
+        }
+
+        static void ByHandFill(int rows, int col, ref int[][] array)
+        {
+            for (int i = 0; i < rows; i++)
+            {
+                string[] rowOfArray = Console.ReadLine().Trim().Split();
+                array[i] = new int[col];
+                for (int j = 0; j < col; j++)
+                {
+                    array[i][j] = Convert.ToInt32(rowOfArray[j]);
+                }
+            }
+        }
+
 	static void PrintArray(int rows, int col, int[][] array)
         {
             if (rows == 0)
@@ -51,6 +77,7 @@ namespace lb4_block_3
                     break;
             }
         }
+
         public static void Block_2()
         {
             Console.WriteLine("Введіть прізвище студента, варіант якого хочете виконати. Для завершення виконання варіанту програми введіть 0. ");
@@ -102,6 +129,7 @@ namespace lb4_block_3
                 }
             } while (choiceOfStudent != "0");
         }
+
         static void Main(string[] args)
         {
            Block_2();

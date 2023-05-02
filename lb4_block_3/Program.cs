@@ -8,6 +8,48 @@ namespace lb4_block_3
 {
     internal class Program
     {
+	static void PrintArray(int rows, int col, int[][] array)
+        {
+            if (rows == 0)
+            {
+                Console.WriteLine("Масив порожній!");
+            }
+            else
+            {
+                for (int i = 0; i < rows; i++)
+                {
+                    for (int j = 0; j < array[i].Length; j++)
+                    {
+                        Console.Write(array[i][j] + " ");
+                    }
+                    Console.WriteLine();
+                }
+            }
+        }
+	public static void ChooseTheWayToFill(int rows, int col, ref int[][] array)
+        {
+            Console.Write("Введіть 1, щоб заповнити масив рандомно, або 2, щоб заповнити його вручну: ");
+            int choiceOfInput = Convert.ToInt32(Console.ReadLine());
+            switch (choiceOfInput)
+            {
+                case 1:
+                    RandomFill(rows, col, ref array);
+                    Console.WriteLine("Початковий масив: ");
+                    for (int i = 0; i < rows; i++)
+                    {
+                        for (int j = 0; j < col; j++)
+                        {
+                            Console.Write(array[i][j] + " ");
+                        }
+                        Console.WriteLine();
+                    }
+                    break;
+                case 2:
+                    Console.WriteLine("Введіть масив: ");
+                    ByHandFill(rows, col, ref array);
+                    break;
+            }
+        }
         public static void Block_2()
         {
             Console.WriteLine("Введіть прізвище студента, варіант якого хочете виконати. Для завершення виконання варіанту програми введіть 0. ");

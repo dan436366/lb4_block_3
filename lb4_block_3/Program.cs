@@ -61,6 +61,7 @@ namespace lb4_block_3
         }
         static void Main(string[] args)
         {
+
            Block_2();
         }
     }

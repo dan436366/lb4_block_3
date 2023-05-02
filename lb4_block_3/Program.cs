@@ -26,6 +26,7 @@ namespace lb4_block_3
                 }
             }
         }
+
 	public static void ChooseTheWayToFill(int rows, int col, ref int[][] array)
         {
             Console.Write("Введіть 1, щоб заповнити масив рандомно, або 2, щоб заповнити його вручну: ");

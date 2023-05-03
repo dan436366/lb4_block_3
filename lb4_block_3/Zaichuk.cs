@@ -21,7 +21,7 @@ namespace lb4_block_3
                 do
                 {
                     k = int.Parse(Console.ReadLine());
-                    if (k > array.Length)
+                    if (k > array.Length||k<0)
                     {
                         Console.WriteLine("Такого рядка не існує, введіть ще раз, або натисніть 0 для виходу с задачі");
                     }

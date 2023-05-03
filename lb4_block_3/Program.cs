@@ -93,7 +93,7 @@ namespace lb4_block_3
                 switch (choiceOfStudent)
                 {
                     case "krasilnikov":
-                        Krasilnikov.MethodKrasil(ref rows, col, ref array);
+                        //Krasilnikov.MethodKrasil(ref rows, col, ref array);
                         Console.WriteLine("Результат:");
                         PrintArray(rows, col, array);
                         break;
@@ -103,7 +103,7 @@ namespace lb4_block_3
                         PrintArray(rows, col, array);
                         break;
                     case "popilevych":
-                        Popilevych.MethodPopil(ref rows, col, ref array);
+                        //Popilevych.MethodPopil(ref rows, col, ref array);
                         Console.WriteLine("Результат:");
                         PrintArray(rows, col, array);
                         break;

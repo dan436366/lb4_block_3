@@ -44,9 +44,9 @@ namespace lb4_block_3
             {
                 for (int i = 0; i < rows; i++)
                 {
-                    for (int j = 0; j < array[i].Length; j++)
+                    for (int j = 0; j < col; j++)
                     {
-                        Console.Write(array[i][j] + " ");
+                        Console.Write("{0}\t",array[i][j]);
                     }
                     Console.WriteLine();
                 }
@@ -115,9 +115,9 @@ namespace lb4_block_3
                 choiceOfStudent = Console.ReadLine().ToLower();
                 if (choiceOfStudent == "krasilnikov" || choiceOfStudent == "zaichuk" || choiceOfStudent == "popilevych")
                 {
-                    Console.WriteLine("Бажаєте створити новий масив?(Так/Ні)");
+                    Console.WriteLine("Бажаєте створити новий масив?(Yes/No)");
                     string answer = Console.ReadLine().ToLower();
-                    if (answer == "так")
+                    if (answer == "yes")
                     {
                         Console.Write("Введіть к-сть рядків та стовпчиків в масиві: ");
                         size = Console.ReadLine().Trim().Split();

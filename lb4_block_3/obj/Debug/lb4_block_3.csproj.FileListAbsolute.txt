@@ -1,0 +1,8 @@
+X:\учёба\универ\палм\семестр 2\лаб 4\lb4_Block3\lb4_block_3\lb4_block_3\bin\Debug\lb4_block_3.exe.config
+X:\учёба\универ\палм\семестр 2\лаб 4\lb4_Block3\lb4_block_3\lb4_block_3\bin\Debug\lb4_block_3.exe
+X:\учёба\универ\палм\семестр 2\лаб 4\lb4_Block3\lb4_block_3\lb4_block_3\bin\Debug\lb4_block_3.pdb
+X:\учёба\универ\палм\семестр 2\лаб 4\lb4_Block3\lb4_block_3\lb4_block_3\obj\Debug\lb4_block_3.csproj.AssemblyReference.cache
+X:\учёба\универ\палм\семестр 2\лаб 4\lb4_Block3\lb4_block_3\lb4_block_3\obj\Debug\lb4_block_3.csproj.SuggestedBindingRedirects.cache
+X:\учёба\универ\палм\семестр 2\лаб 4\lb4_Block3\lb4_block_3\lb4_block_3\obj\Debug\lb4_block_3.csproj.CoreCompileInputs.cache
+X:\учёба\универ\палм\семестр 2\лаб 4\lb4_Block3\lb4_block_3\lb4_block_3\obj\Debug\lb4_block_3.exe
+X:\учёба\универ\палм\семестр 2\лаб 4\lb4_Block3\lb4_block_3\lb4_block_3\obj\Debug\lb4_block_3.pdb

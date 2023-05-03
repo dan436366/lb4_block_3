@@ -66,7 +66,7 @@ namespace lb4_block_3
                     {
                         for (int j = 0; j < col; j++)
                         {
-                            Console.Write(array[i][j] + " ");
+                            Console.Write("{0}\t",array[i][j]);
                         }
                         Console.WriteLine();
                     }
@@ -78,7 +78,7 @@ namespace lb4_block_3
             }
         }
 
-        public static void Block_2()
+        public static void Block_3()
         {
             Console.WriteLine("Введіть прізвище студента, варіант якого хочете виконати. Для завершення виконання варіанту програми введіть 0. ");
             string choiceOfStudent = Console.ReadLine().ToLower();
@@ -98,7 +98,7 @@ namespace lb4_block_3
                         PrintArray(rows, col, array);
                         break;
                     case "zaichuk":
-                        Zaichuk.MethodZaichuk(ref array, col, ref rows);
+                        Zaichuk.Delete(ref array, col, ref rows);
                         Console.WriteLine("Результат:");
                         PrintArray(rows, col, array);
                         break;
@@ -132,7 +132,7 @@ namespace lb4_block_3
 
         static void Main(string[] args)
         {
-           Block_2();
+           Block_3();
         }
     }
 }

@@ -10,9 +10,9 @@ namespace lb4_block_3
     {
         public static void DeleteFewRows(ref int[][] array, ref int rows)
         {
-            Console.WriteLine("Введіть починаючи з якого номеру знищити елементи:");
+            Console.WriteLine("Введіть з якого рядка починаючи знищити елементи:");
             int k1 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Введіть кінець до якого номеру знищити елементи:");
+            Console.WriteLine("Введіть до якого рядка знищити елементи:");
             int k2 = int.Parse(Console.ReadLine());
 
             k1--;

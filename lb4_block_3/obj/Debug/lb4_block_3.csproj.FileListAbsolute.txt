@@ -30,3 +30,10 @@ D:\Dan\university\palm2\lb4_block___________3\lb4_block_3\lb4_block_3\obj\Debug\
 D:\Dan\university\palm2\lb4_block___________3\lb4_block_3\lb4_block_3\obj\Debug\lb4_block_3.csproj.CoreCompileInputs.cache
 D:\Dan\university\palm2\lb4_block___________3\lb4_block_3\lb4_block_3\obj\Debug\lb4_block_3.exe
 D:\Dan\university\palm2\lb4_block___________3\lb4_block_3\lb4_block_3\obj\Debug\lb4_block_3.pdb
+D:\university\lb4_block3\lb4_block_3\lb4_block_3\bin\Debug\lb4_block_3.exe.config
+D:\university\lb4_block3\lb4_block_3\lb4_block_3\bin\Debug\lb4_block_3.exe
+D:\university\lb4_block3\lb4_block_3\lb4_block_3\bin\Debug\lb4_block_3.pdb
+D:\university\lb4_block3\lb4_block_3\lb4_block_3\obj\Debug\lb4_block_3.csproj.AssemblyReference.cache
+D:\university\lb4_block3\lb4_block_3\lb4_block_3\obj\Debug\lb4_block_3.csproj.CoreCompileInputs.cache
+D:\university\lb4_block3\lb4_block_3\lb4_block_3\obj\Debug\lb4_block_3.exe
+D:\university\lb4_block3\lb4_block_3\lb4_block_3\obj\Debug\lb4_block_3.pdb

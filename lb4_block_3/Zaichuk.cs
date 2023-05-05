@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace lb4_block_3
 {
-    internal class Zaichuk
+    public partial class Zaichuk
     {
-        public static void Delete(ref int[][] array, int col, ref int rows)
+        public static void Delete(ref int[][] array, ref int rows)
         {
             if (array.Length == 0)
             {

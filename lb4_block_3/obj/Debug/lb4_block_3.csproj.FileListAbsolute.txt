@@ -22,3 +22,11 @@ X:\учёба\универ\палм\семестр 2\лаб 4\block3 second\lb4_
 X:\учёба\универ\палм\семестр 2\лаб 4\block3 second\lb4_block_3\lb4_block_3\obj\Debug\lb4_block_3.csproj.CoreCompileInputs.cache
 X:\учёба\универ\палм\семестр 2\лаб 4\block3 second\lb4_block_3\lb4_block_3\obj\Debug\lb4_block_3.exe
 X:\учёба\универ\палм\семестр 2\лаб 4\block3 second\lb4_block_3\lb4_block_3\obj\Debug\lb4_block_3.pdb
+D:\Dan\university\palm2\lb4_block___________3\lb4_block_3\lb4_block_3\bin\Debug\lb4_block_3.exe.config
+D:\Dan\university\palm2\lb4_block___________3\lb4_block_3\lb4_block_3\bin\Debug\lb4_block_3.exe
+D:\Dan\university\palm2\lb4_block___________3\lb4_block_3\lb4_block_3\bin\Debug\lb4_block_3.pdb
+D:\Dan\university\palm2\lb4_block___________3\lb4_block_3\lb4_block_3\obj\Debug\lb4_block_3.csproj.AssemblyReference.cache
+D:\Dan\university\palm2\lb4_block___________3\lb4_block_3\lb4_block_3\obj\Debug\lb4_block_3.csproj.SuggestedBindingRedirects.cache
+D:\Dan\university\palm2\lb4_block___________3\lb4_block_3\lb4_block_3\obj\Debug\lb4_block_3.csproj.CoreCompileInputs.cache
+D:\Dan\university\palm2\lb4_block___________3\lb4_block_3\lb4_block_3\obj\Debug\lb4_block_3.exe
+D:\Dan\university\palm2\lb4_block___________3\lb4_block_3\lb4_block_3\obj\Debug\lb4_block_3.pdb

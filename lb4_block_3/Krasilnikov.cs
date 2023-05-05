@@ -4,13 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace lb4_block_3_Krasilnikov
+namespace lb4_block_3
 {
     public partial class Krasilnikov
     {
         public static void DeleteFewRows(ref int[][] array, ref int rows)
         {
+            Console.WriteLine("Введіть починаючи з якого номеру знищити елементи:");
             int k1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Введіть кінець до якого номеру знищити елементи:");
             int k2 = int.Parse(Console.ReadLine());
 
             k1--;

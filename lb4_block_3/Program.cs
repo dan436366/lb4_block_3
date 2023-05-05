@@ -103,7 +103,7 @@ namespace lb4_block_3
                         PrintArray(rows, col, array);
                         break;
                     case "popilevych":
-                        //Popilevych.MethodPopil(ref rows, col, ref array);
+                        Popilevych.DeleteRowsByRange(ref array,ref rows);
                         Console.WriteLine("Результат:");
                         PrintArray(rows, col, array);
                         break;

@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Popilevych.cs" />
     <Compile Include="Krasilnikov.cs" />
     <Compile Include="Zaichuk.cs" />
     <Compile Include="Program.cs" />

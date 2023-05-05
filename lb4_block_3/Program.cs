@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using lb4_block_3_Krasilnikov;
 
 namespace lb4_block_3
 {
@@ -93,7 +94,7 @@ namespace lb4_block_3
                 switch (choiceOfStudent)
                 {
                     case "krasilnikov":
-                        //Krasilnikov.MethodKrasil(ref rows, col, ref array);
+                        Krasilnikov.DeleteFewRows(ref array, ref rows);
                         Console.WriteLine("Результат:");
                         PrintArray(rows, col, array);
                         break;

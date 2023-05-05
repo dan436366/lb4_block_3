@@ -99,7 +99,7 @@ namespace lb4_block_3
                         PrintArray(rows, col, array);
                         break;
                     case "zaichuk":
-                        Zaichuk.Delete(ref array, col, ref rows);
+                        Zaichuk.Delete(ref array, ref rows);
                         Console.WriteLine("Результат:");
                         PrintArray(rows, col, array);
                         break;
